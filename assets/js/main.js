@@ -16,44 +16,17 @@
     }
   })
 
-  // Preloader
-  $(window).on('load', function() {
-    if ($('#preloader').length) {
-      $('#preloader').delay(100).fadeOut('slow', function() {
-        $(this).remove();
-      });
-    }
-  });
-
-  // Back to top button
-  $(window).scroll(function() {
-    if ($(this).scrollTop() > 100) {
-      $('.back-to-top').fadeIn('slow');
-    } else {
-      $('.back-to-top').fadeOut('slow');
-    }
-  });
-  $('.back-to-top').click(function() {
-    $('html, body').animate({
-      scrollTop: 0
-    }, 1500, 'easeInOutExpo');
-    return false;
-  });
-
-  /*--/ Star ScrollTop /--*/
   $('.scrolltop-mf').on("click", function() {
     $('html, body').animate({
       scrollTop: 0
     }, 1000);
   });
 
-  /*--/ Star Counter /--*/
   $('.counter').counterUp({
     delay: 15,
     time: 2000
   });
 
-  /*--/ Star Scrolling nav /--*/
   $('a.js-scroll[href*="#"]:not([href="#"])').on("click", function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
       var target = $(this.hash);
@@ -67,19 +40,15 @@
     }
   });
 
-  // Closes responsive menu when a scroll trigger link is clicked
   $('.js-scroll').on("click", function() {
     $('.navbar-collapse').collapse('hide');
   });
 
-  // Activate scrollspy to add active class to navbar items on scroll
   $('body').scrollspy({
     target: '#mainNav',
     offset: navHeight
   });
-  /*--/ End Scrolling nav /--*/
 
-  /*--/ Navbar Menu Reduce /--*/
   $(window).trigger('scroll');
   $(window).on('scroll', function() {
     var pixels = 50;
@@ -93,19 +62,6 @@
     }
   });
 
-  /*--/ Star Typed /--*/
-  if ($('.text-slider').length == 1) {
-    var typed_strings = $('.text-slider-items').text();
-    var typed = new Typed('.text-slider', {
-      strings: typed_strings.split(','),
-      typeSpeed: 80,
-      loop: true,
-      backDelay: 1100,
-      backSpeed: 30
-    });
-  }
-
-  /*--/ Testimonials owl /--*/
   $('#testimonial-mf').owlCarousel({
     margin: 20,
     autoplay: true,
@@ -118,7 +74,6 @@
     }
   });
 
-  // Initiate venobox (lightbox feature used in portofilo)
   $(document).ready(function() {
     $('.venobox').venobox();
   });
