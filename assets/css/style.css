@@ -54,8 +54,15 @@ h6 {
   .bg-image {
     background-attachment: scroll;
   }
-  .icons .socials{
-    margin-left:62px;
+  .socials{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    min-width: 100px;
+    margin-left:12px;
+    overflow: hidden;
   }
 }
 
@@ -191,10 +198,6 @@ h6 {
   }
 }
 
-.icons{
-  float: left;
-}
-
 .socials {
   padding: 1.5rem 0;
 }
@@ -209,7 +212,7 @@ h6 {
   font-size: 1.7rem;
   border-radius: 50%;
   line-height: 1.4;
-  margin: 0 12px 0 0;
+  margin: 0 8px 0 0;
   transition: all 500ms ease;
   color: #1e1e1e;
   border: 1px solid #1e1e1e;
@@ -917,7 +920,6 @@ footer .credits a {
   flex-grow: 1;
   min-width: 100px;
   overflow: hidden;
-
 }
 .source-code a{
   font-weight: 500;
