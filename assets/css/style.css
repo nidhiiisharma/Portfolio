@@ -61,7 +61,7 @@ h6 {
     justify-content: center;
     flex-grow: 1;
     min-width: 100px;
-    margin-left:12px;
+    margin-left:10px;
     overflow: hidden;
   }
 }
@@ -207,9 +207,9 @@ h6 {
 }
 
 .socials .ico-circle {
-  height: 43px;
-  width: 43px;
-  font-size: 1.7rem;
+  height: 40px;
+  width: 40px;
+  font-size: 1.6rem;
   border-radius: 50%;
   line-height: 1.4;
   margin: 0 8px 0 0;
