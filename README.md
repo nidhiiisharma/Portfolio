@@ -1,2 +1,2 @@
 # Portfolio
-https://nidhiiisharma.github.io/portfolio/
+https://nidhiiisharma.github.io/Portfolio/
