@@ -3,9 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Portfolio</title>
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/logo.png" rel="apple-touch-icon">
+  <title>Nidhi Sharma</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
@@ -17,7 +18,8 @@
 <body id="page-top">
   <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll" href="#page-top">Portfolio</a>
+      <a class="navbar-brand js-scroll" href="#page-top">
+        <img src="assets/img/logo.png" height="48"></a>
       <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span></span>
         <span></span>
@@ -38,9 +40,6 @@
             <a class="nav-link js-scroll" href="#work">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll" href="#hobbies">Hobbies</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link js-scroll" href="#contact">Contact</a>
           </li>
         </ul>
@@ -52,8 +51,8 @@
     <div class="intro-content display-table">
       <div class="table-cell">
         <div class="container">
-          <h1 class="intro-title mb-4">Hello, I am Nidhi Sharma</h1>
-          <p class="intro-subtitle"><strong></strong>Software Engineer Student</p>
+          <h1 class="intro-title mb-4">Designer, Front-end Developer</h1>
+          <p class="intro-subtitle">I design and code beautifully simple things, and I love what I do.</p>
         </div>
       </div>
     </div>
@@ -172,7 +171,7 @@
               <div class="service-content">
                 <h2 class="s-title">Design</h2>
                 <p class="s-description text-center">
-                  In my free time, I practice my skills. Using different frameworks such as Angular JS and Laravel. 
+                  In my free time, I practice my skills. Using frameworks such as Angular JS and React. 
                   Taking online courses to improve myself and learn new things. 
                 </p>
               </div>
@@ -229,7 +228,7 @@
                 <div class="col-md-12">
                   <h2 class="s-title-p">Latitude Music Festival</h2>
                     <p class="s-description">
-                      Website for a 3 day music festival. You can see the line-up for the different artists, 
+                      A website for a 3 day music festival. You can see the line-up for the different artists, 
                       choose a tent where you would like to stay and you are also able to purchase tickets if you would like to attend.
                     </p>
                   <div class="source-code">
@@ -451,11 +450,10 @@
               <div class="row">
                 <div class="about-me pt-4 pt-md-0">
                   <p class="lead">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                    Voluptas a dolorum modi similique saepe reprehenderit, in deserunt, quaerat error voluptatibus, 
-                    veritatis laudantium sunt repudiandae impedit harum quasi porro ratione expedita?
+                    I'm always interested in making cool websites or designs. If you have a project that you want to get started, 
+                    and think you would need my help or would like to contact me, then get in touch!
                   </p>
-                  <form action="contact.php" method="post" role="form" class="php-email-form">
+                  <form id="contact-form" name="contact-form" action="contact.php" method="POST">
                     <div class="row">
                       <div class="col-md-12 mb-3">
                         <div class="form-group">
@@ -469,11 +467,8 @@
                       </div>
                       <div class="col-md-12">
                         <div class="form-group">
-                          <textarea class="form" name="message" rows="5" data-rule="required" placeholder="Message"></textarea>
+                          <textarea class="form" name="message" id="message" rows="5" data-rule="required" placeholder="Message"></textarea>
                         </div>
-                      </div>
-                      <div class="col-md-12 text-center mb-3">
-                        <div class="sent-message">Your message has been sent. Thank you!</div>
                       </div>
                       <div class="col-md-12 text-center">
                         <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
@@ -504,7 +499,7 @@
       <div class="row">
         <div class="col-sm-12">
           <div class="copyright-box">
-            <p class="copyright"><strong>Slogan</strong> &copy; 2020</p>
+            <p class="copyright"><strong>Creativity simplified</strong> &copy; 2020</p>
             <div class="credits">
             </div>
           </div>
