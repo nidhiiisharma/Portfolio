@@ -286,7 +286,6 @@ h6 {
   font-size: 1rem;
   border-radius: 20%;
   background-color: white;
-
   transition: all 500ms ease;
   cursor: pointer;
 }
@@ -296,12 +295,8 @@ h6 {
 }
 
 .button:hover {
-  transition: all 500ms ease;
-}
-
-.button-a {
-  color: #fff;
-  border-color: #cde1f8;
+  color: white;
+  background-color: black;
 }
 
 .button-big {
@@ -309,7 +304,7 @@ h6 {
   font-size: 1.2rem;
 }
 
-.button-rouded {
+.button-rounded {
   border-radius: 1rem;
 }
 
@@ -762,43 +757,6 @@ textarea.form{
   border: 1px solid #ced4da;
   border-radius: .25rem;
   transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-}
-
-.php-email-form .validate {
-  display: none;
-  color: red;
-  margin: 0 0 15px 0;
-  font-weight: 400;
-  font-size: 13px;
-}
-
-.php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-}
-
-.php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  -webkit-animation: animate-loading 1s linear infinite;
-  animation: animate-loading 1s linear infinite;
 }
 
 .php-email-form input {
