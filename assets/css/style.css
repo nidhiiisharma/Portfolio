@@ -1,4 +1,5 @@
 body {
+  font-family: 'Roboto', sans-serif;
   background-color: #f5f5f5;
   color: #4e4e4e;
 }
@@ -105,7 +106,8 @@ h6 {
 }
 
 .title-a {
-  font-size: 3rem;
+  font-family: 'Roboto Slab', serif;
+  font-size: 2.8rem;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -127,6 +129,7 @@ h6 {
 }
 
 .title-left {
+  font-family: 'Roboto Slab', serif;
   text-align: center;
   font-size: 2rem;
   position: relative;
@@ -137,7 +140,7 @@ h6 {
   position: absolute;
   height: 3px;
   background-color:black;
-  width: 56%;
+  width: 60%;
   bottom: -12px;
 }
 
@@ -197,21 +200,6 @@ h6 {
   margin-left: 10px;
 }
 
-.list-ico .telephone-icon {
-  margin-right: 8px;
-}
-
-.list-ico .icon {
-  margin-right: 10px;
-}
-
-.list-ico .location-icon {
-  margin-right: 12px;
-}
-
-.list-ico .email-icon {
-  margin-right: 6px;
-}
 
 .ico-circle {
   height: 100px;
@@ -433,8 +421,8 @@ h6 {
 }
 
 .intro .intro-title {
+  font-family: 'Roboto Slab', serif;
   color: #fff;
-  font-weight: 600;
   font-size: 2rem;
 }
 
@@ -445,6 +433,7 @@ h6 {
 }
 
 .intro .intro-subtitle {
+  font-family: 'Roboto', sans-serif;
   font-size: 1rem;
   font-weight: 300;
 }
@@ -544,13 +533,16 @@ h6 {
 }
 
 .service-box .service-ico {
-  margin-bottom: 1rem;
   color: #1e1e1e;
 }
 
 .service-box .ico-circle {
   transition: all 500ms ease;
-  font-size: 4rem;
+  font-size: 5rem;
+}
+
+.ico-circle .material-icons {
+  font-size: 70px;
 }
 
 .service-box .s-title {
@@ -569,6 +561,7 @@ h6 {
 }
 
 .s-title-p{
+  font-family: 'Roboto Slab', serif;
   text-align: center;
   margin-top: 20px;
 }
@@ -667,6 +660,7 @@ h6 {
 }
 
 .title-right {
+  font-family: 'Roboto Slab', serif;
   text-align: center;
   font-size: 2rem;
   position: relative;
@@ -678,7 +672,7 @@ h6 {
   position: absolute;
   height: 3px;
   background-color:black;
-  width: 18%;
+  width: 20%;
   bottom: -12px;
 }
 
